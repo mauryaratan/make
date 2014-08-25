@@ -17,11 +17,9 @@ global $ttfmake_section_data, $ttfmake_sections;
 
 	<?php if ( ! empty( $ttfmake_section_data['content'] ) ) : ?>
 	<div class="builder-section-content">
-		<?php if ( '' !== $ttfmake_section_data['content'] ) : ?>
 		<div class="builder-blank-content">
 			<?php ttfmake_get_builder_save()->the_builder_content( $ttfmake_section_data['content'] ); ?>
 		</div>
-		<?php endif; ?>
 	</div>
 	<?php endif; ?>
 </section>
